@@ -6,9 +6,9 @@ git:
 
 cache:
   directories:
-    - Build/${BUILD_DIR}/External
+    #- Build/${BUILD_DIR}/External
     - Build/${BUILD_DIR}/Ninja
-    - External
+    #- External
     - KlayGE/media
     - KlayGE/Samples/media
     - KlayGE/Tests/media

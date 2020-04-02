@@ -78,6 +78,7 @@ KlayGE/Tools/src/MtlEditor/MtlEditor/Images
 KlayGE/Tools/src/TexViewer/TexViewer/Images
 External/7z
 External/android_native_app_glue
+External/any-lite
 External/assimp
 External/boost
 External/cxxopts
@@ -98,6 +99,7 @@ External/Python
 External/python-cmake-buildsystem
 External/rapidjson
 External/rapidxml
+External/string-view-lite
 External/UniversalDXSDK
 External/wpftoolkit
 External/zlib

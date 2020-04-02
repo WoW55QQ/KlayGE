@@ -1,5 +1,5 @@
 /**
- * @file any.cpp
+ * @file any.hpp
  * @author Minmin Gong
  *
  * @section DESCRIPTION
@@ -28,8 +28,8 @@
  * from http://www.klayge.org/licensing/.
  */
 
-#ifndef _KFL_CXX17_ANY_HPP
-#define _KFL_CXX17_ANY_HPP
+#ifndef KFL_CXX17_ANY_HPP
+#define KFL_CXX17_ANY_HPP
 
 #pragma once
 
@@ -46,13 +46,13 @@
 		using experimental::bad_any_cast;
 	}
 #else
-	#include <boost/any.hpp>
+	#include <nonstd/any.hpp>
 	namespace std
 	{
-		using boost::any;
-		using boost::any_cast;
-		using boost::bad_any_cast;
+		using nonstd::any;
+		using nonstd::any_cast;
+		using nonstd::bad_any_cast;
 	}
 #endif
 
-#endif		// _KFL_CXX17_ANY_HPP
+#endif		// KFL_CXX17_ANY_HPP
